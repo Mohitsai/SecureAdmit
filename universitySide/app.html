@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Information</title>
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <style>
+        h1 {
+            margin-right: 40px; /* Adjust this value as needed */
+        }
+        th, td {
+            padding: 10px; /* Adjust this value as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Students Information</h1>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Exam Date</th>
+                <th>Is Qualified</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Students' information will be dynamically added here -->
+        </tbody>
+    </table>
+    <script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="js/abi.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
