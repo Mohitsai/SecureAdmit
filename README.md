@@ -2,6 +2,13 @@
 
 Confidential score validation and verification system for university admissions leveraging blockchain, zk and merkle proofs.
 
+## Important :
+   Presentation link - https://www.canva.com/design/DAGE1pTzJT4/tALUCTSXgCixthQi_GJOUQ/view?utm_content=DAGE1pTzJT4&utm_campaign=designshare&utm_medium=link&utm_source=editor
+   Alternatively : https://www.canva.com/design/DAGE1pTzJT4/QrWA4Uz8u2AoINAsMG7K_g/edit?utm_content=DAGE1pTzJT4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+   The presentation is **updated** with the potential fixes and changes to project based on the feedback (specifically playing around with the public signals of the circom circuit to make the 
+   application more robust to any data integrity issues) received during the discussion.
+
 ## Instructions to run :
 
 Open three terminals in the three different directories of the project which represent the three different components of the project :
